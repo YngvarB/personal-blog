@@ -1361,6 +1361,9 @@ body {
     color: inherit; }
     .modal__footer a:hover {
       text-decoration: none; }
+  @media (max-width: 321px) {
+    .modal__footer li {
+      text-align: center; } }
 
 .modal__video {
   display: block;
